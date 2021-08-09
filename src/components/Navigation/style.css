@@ -1,0 +1,31 @@
+.nav_menu {
+  padding: 10px;
+  font-family: "Wire One", sans-serif;
+  background-color: #cadfef;
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+  border-top: 5px dotted #a7c7e0;
+  border-bottom: 4px dotted #a7c7e0;
+}
+
+.nav_list_item {
+  flex: 1;
+  font-size: 1.7rem;
+}
+
+.no_underline {
+  text-decoration: none;
+  font-weight: 900;
+  /* color: #f9fbf5;
+  text-shadow: 0.9px 0.9px #383a3b; */
+  color: #8f968c;
+  text-shadow: none;
+}
+
+.no_underline:hover {
+  color: #f9fbf5;
+  text-shadow: 0.9px 0.9px #383a3b;
+  /* color: #8f968c;
+  text-shadow: none; */
+}
