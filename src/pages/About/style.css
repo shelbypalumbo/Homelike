@@ -1,5 +1,11 @@
-.About {
+.about {
   text-align: center;
-  margin-left: 18%;
-  margin-right: 18%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.closingDay {
+  width: 35%;
+  border-radius: 70%;
+  border: dashed 4px rgb(230, 178, 35);
 }

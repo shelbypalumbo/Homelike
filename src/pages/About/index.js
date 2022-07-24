@@ -1,13 +1,15 @@
 import React from "react";
 import "./style.css";
-
+import ClosingDay from "../../images/AAAABackyard/Closing_Day.jpg";
 const About = () => {
   return (
-    <div className="About">
-      Hello! Welcome to Homelike. My name is Shelby and recently I purchased my
+    <div className="about">
+      <img src={ClosingDay} alt="closing day picture" className="closingDay" />
+      <br></br>
+      Hello! Welcome to Homelike. My name is Shelby and in 2020 I purchased my
       very first house. After years of living in apartments, I've enjoyed the
-      process of making my house more homelike. This website will host my past
-      and present home updates and some little how to snippets.
+      process of making my house more "homelike". This website will host my
+      past/present home updates and a couple of how-to snippets.
     </div>
   );
 };

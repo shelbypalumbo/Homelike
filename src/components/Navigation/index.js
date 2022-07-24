@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 const Navigation = () => {
@@ -6,25 +7,25 @@ const Navigation = () => {
     <div>
       <ul className="nav_menu">
         <li className="nav_list_item">
-          <a className="no_underline" href="./">
+          <Link to="/About" className="no_underline">
             About Homelike
-          </a>
+          </Link>
         </li>
 
         <li className="nav_list_item">
-          <a className="no_underline" href="./">
+          <Link to="/HowTo" className="no_underline">
             How To's
-          </a>
+          </Link>
         </li>
         <li className="nav_list_item">
-          <a className="no_underline" href="./">
+          <Link to="/Gallery" className="no_underline">
             Before/After Gallery
-          </a>
+          </Link>
         </li>
         <li className="nav_list_item">
-          <a className="no_underline" href="./">
+          <Link to="/Shop" className="no_underline">
             Shop
-          </a>
+          </Link>
         </li>
       </ul>
     </div>
